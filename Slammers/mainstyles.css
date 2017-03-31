@@ -1,0 +1,17 @@
+
+body    {margin: 0}
+
+header  {margin: 0;
+        background: sandybrown url("images/sand.jpg") fixed;
+        background-size: cover;}
+
+h1      {margin: 0;
+        padding: 60px;
+        font-family: "Buxton Sketch";
+        font-style: oblique;
+        color: mediumblue;
+        text-align: center;
+        font-size: 60px;}
+
+nav     {display: inline;
+        }
