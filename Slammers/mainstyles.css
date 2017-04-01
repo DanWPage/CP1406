@@ -1,5 +1,6 @@
 
-body    {margin: 0}
+body    {margin: 0;
+        background-color: cornflowerblue;}
 
 header  {margin: 0;
         background: sandybrown url("images/sand.jpg") fixed;
@@ -7,11 +8,36 @@ header  {margin: 0;
 
 h1      {margin: 0;
         padding: 60px;
-        font-family: "Buxton Sketch";
+        font: "Buxton Sketch";
         font-style: oblique;
         color: mediumblue;
         text-align: center;
         font-size: 60px;}
 
-nav     {display: inline;
+nav     {text-align: center;
         }
+
+nav ul  {padding-bottom: 20px;}
+
+nav li  {display: inline;
+        margin: 30px;}
+
+nav a   {text-decoration: none;
+        padding: 10px;
+        font: "Arial Rounded MT Bold";
+        color: darkolivegreen;
+        background-color: cornflowerblue;}
+
+footer {background-color: darkolivegreen;}
+
+footer div      {margin-left: 20px;}
+
+footer ul       {text-align: center;
+                float: none;}
+
+footer li       {display: inline;
+                margin: 30px;
+                padding: 10px;}
+
+footer a        {text-decoration: none;
+                color: cornflowerblue;}
