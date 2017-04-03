@@ -1,22 +1,21 @@
 
 body    {margin: 0;
         background-color: cornflowerblue;
-        font-family: sans-serif;}
-
-div     {margin: 20px;}
+        font-family: 'Lora', serif;}
 
 div h2  {margin-bottom: 5px;}
-header  {margin: 0;
+
+header  {margin: 0 0 60px 0;
         background: sandybrown url("images/sand.jpg") fixed;
         background-size: cover;}
 
 h1      {margin: 0;
-        padding: 60px;
-        font: "Buxton Sketch";
-        font-style: oblique;
+        padding: 40px;
+        font-family: 'Architects Daughter', cursive;
+        /*font-style: oblique;*/
         color: mediumblue;
         text-align: center;
-        font-size: 60px;}
+        font-size: 4em;}
 
 nav     {text-align: center;
         }
@@ -28,13 +27,15 @@ nav li  {display: inline;
 
 nav a   {text-decoration: none;
         padding: 10px;
-        font: "Arial Rounded MT Bold";
+        border-radius: 1em;
         color: darkolivegreen;
         background-color: cornflowerblue;}
 
+div     {margin-left: 20px;}
+
 footer {clear: both;
         background-color: darkolivegreen;
-        font-size: 10px;
+        font-size: .7em;
         border: red solid 1px;
         padding: 0;}
 
@@ -52,29 +53,23 @@ footer li       {display: inline;
 footer a        {text-decoration: none;
                 color: cornflowerblue;}
 
-/*.announcements  {margin: 0 100px 20px 100px;*/
-                /*padding: 20px;*/
-                /*border: black solid 1px;}*/
-
-
 .CTA    {text-align: center;
-        float: none;
-        width: 100%;
         color: blue;
+        border-radius: 1em;
         background-color: chartreuse;
         font-size: large;
-        margin: 20px;
         padding: 10px;}
 
 .announcements h2   {text-align: center;}
 
-/*.announcements ul   {}*/
+.LeftPic {float: left;
+            border: black solid 5px;
+            margin: 0px 20px 20px 0;}
 
-.homeLeftPic      {float: left;
-                        border: black solid 5px;
-                        margin-right: 20px;}
-
-.homeRightPic    {float: right;
-                        margin-left: 20px;}
+.RightPic {float: right;
+            margin: 0px 0 20px 20px;
+            border: black solid 5px;}
 
 .div2   {margin: 40px 10px;}
+
+#noBoarder {border: none;}
