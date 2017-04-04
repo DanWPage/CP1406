@@ -17,8 +17,7 @@ h1      {margin: 0;
         text-align: center;
         font-size: 4em;}
 
-nav     {text-align: center;
-        }
+nav     {text-align: center;}
 
 nav ul  {padding-bottom: 20px;}
 
@@ -71,5 +70,7 @@ footer a        {text-decoration: none;
             border: black solid 5px;}
 
 .div2   {margin: 40px 10px;}
+
+.leagueLadder   {clear: left;}
 
 #noBoarder {border: none;}
