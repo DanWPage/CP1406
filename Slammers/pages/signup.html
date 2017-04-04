@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Slammers</title>
-    <link href="../mainstyles.css" rel="stylesheet">
+    <link href="../css/mainstyles.css" rel="stylesheet">
+    <link href="../css/signUp.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Lora" rel="stylesheet">
 </head>
 <body>
@@ -20,7 +21,18 @@
     </nav>
 </header>
 <div>
-    Sign up
+    <form method="post">
+        <div>
+            <p>First Name:<input type="text" name="fName"></p>
+            <p>Last Name:<input type="text" name="lName"></p>
+            <p>Address:<input type="text" name="address"></p>
+            <p>Suburb:<input type="text" name="suburb"></p>
+            <p>Phone No:<input type="text" name="phone"></p>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Sign Up" name="submit">
+        </div>
+    </form>
 </div>
 <footer>
     <ul>

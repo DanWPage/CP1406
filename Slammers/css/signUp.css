@@ -1,0 +1,13 @@
+
+
+form    {border: mediumblue solid 10px;
+        width: 20%;
+        position: relative;
+        left: 40%}
+
+p   {margin: 2em 20px 2em 20px;
+    text-align: right;}
+
+.submit {clear: both;
+        text-align: center;
+        padding: 2em;}

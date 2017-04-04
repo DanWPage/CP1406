@@ -6,13 +6,12 @@ body    {margin: 0;
 div h2  {margin-bottom: 5px;}
 
 header  {margin: 0 0 60px 0;
-        background: sandybrown url("images/sand.jpg") fixed;
+        background: sandybrown url("../images/sand.jpg") fixed;
         background-size: cover;}
 
 h1      {margin: 0;
         padding: 40px;
         font-family: 'Architects Daughter', cursive;
-        /*font-style: oblique;*/
         color: mediumblue;
         text-align: center;
         font-size: 4em;}
