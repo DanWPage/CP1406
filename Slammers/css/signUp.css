@@ -1,13 +1,20 @@
 
 
-form    {border: mediumblue solid 10px;
-        width: 40%;
-        position: relative;
-        left: 40%}
+form {
+    border: mediumblue solid 10px;
+    width: 40%;
+    max-width: 350px;
+    position: relative;
+    left: 30%;
+    text-align: right;
+    }
 
-input   {margin: 2em 20px 2em 20px;
-    text-align: right;}
+input {
+    margin: 2em;
+    }
 
-.submit {clear: both;
-        text-align: center;
-        padding: 2em;}
+.submit {
+    clear: both;
+    text-align: center;
+    /*padding: 2em;*/
+    }
