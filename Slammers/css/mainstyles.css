@@ -1,13 +1,17 @@
 
 body {
     width: 80%;
-    margin: 0 10% 0 10%;
-    background-color: cornflowerblue;
+    margin: 1% 10% 0 10%;
+    background-color: aliceblue;
     font-family: 'Lora', serif;}
+
+div {
+    margin-left: 20px;}
 
 div h2 {
     margin-bottom: 5px;}
 
+/*Header-------------------------------------*/
 header {
     margin: 0;
     background: sandybrown url("../images/sand.jpg") fixed;
@@ -21,8 +25,10 @@ h1 {
     text-align: center;
     font-size: 4em;}
 
+/*Nav-------------------------------------*/
 nav {
-    text-align: center;}
+    text-align: center;
+    }
 
 nav ul {
     padding-bottom: 20px;}
@@ -35,13 +41,15 @@ nav a {
     text-decoration: none;
     padding: 10px;
     border-radius: 1em;
-    color: darkolivegreen;
-    background-color: cornflowerblue;}
+    background-color: aliceblue;}
 
-div {
-    margin-left: 20px;}
+nav a:hover, a:focus {
+    color: blue;
+    background-color: aquamarine;}
 
-footer {float: left;
+/*Footer-------------------------------------*/
+footer {
+    float: left;
     clear: both;
     position: relative;
     bottom: 0;
@@ -69,38 +77,67 @@ footer a {
     text-decoration: none;
     color: cornflowerblue;}
 
+/*Table-------------------------------------*/
+table {
+    text-align: center;}
+
+th {
+    border: #3524ff solid 1px;
+    width: 5%;}
+
+td {
+    border-bottom: #3524ff solid 1px;}
+
+/*Forms-------------------------------------*/
+form {
+    border: mediumblue solid 10px;
+    width: 40%;
+    max-width: 350px;
+    position: relative;
+    left: 30%;
+    text-align: right;}
+
+input {
+    margin: 2em;}
+
+.submit {
+    clear: both;
+    text-align: center;}
+
+/*Classes-------------------------------------*/
 .CTA {
     text-align: center;
     color: blue;
-    border-radius: 1em;
+    /*border-radius: 1em;*/
     background-color: chartreuse;
     font-size: large;
     padding: 10px;}
 
 .content {
-    border: black solid 1px;
+    /*border: black solid 1px;*/
     margin: 0;}
 
-.announcements {}
+.announcements li {
+
+}
 
 .announcements h2 {
     text-align: center;}
 
 .LeftPic {
+    width: 25%;
     float: left;
     border: black solid 5px;
     margin: 0 20px 20px 0;}
 
 .RightPic {
+    width: 25%;
     float: right;
     border: black solid 5px;
     margin: 0 0 20px 20px;}
 
 .div2 {
     margin: 40px 10px;}
-
-.leagueLadder {
-    clear: left;}
 
 #noBoarder {
     border: none;}
